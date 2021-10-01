@@ -1,4 +1,4 @@
-# This is a simple resource manager application
+# This is a simple resource manager application built using vue, bootstrap and laravel
 
 ## backend commands 
 composer install,
