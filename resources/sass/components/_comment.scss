@@ -1,0 +1,10 @@
+.comment {
+  .card-footer {
+    @include hide;
+  }
+  &:hover {
+    .card-footer {
+      @include show;
+    }
+  }
+}

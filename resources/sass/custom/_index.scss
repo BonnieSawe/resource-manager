@@ -1,0 +1,28 @@
+.padded {
+  padding: 5em 0;
+}
+
+.btn-list {
+  .btn {
+    &:not(:first-child) {
+      margin-left: 5px;
+    }
+  }
+}
+
+.nav {
+  .nav-link {
+    &.router-link-exact-active {
+      color: $primary !important;
+    }
+  }
+}
+
+.card{
+  border: 0;
+  box-shadow: 0 5px 15px rgba(black,.04);
+}
+
+.border-none{
+  border: none !important;
+}

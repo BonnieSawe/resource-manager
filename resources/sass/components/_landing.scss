@@ -1,0 +1,17 @@
+.home-page {
+  .jumbotron {
+    &.home {
+      min-height: 500px;
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      $shade : rgba($primary,.5);
+      background-image: linear-gradient($shade, $shade), url('/images/home-main.jpg'); 
+      color: white;
+    }
+  }
+}
+.home-target-border{
+  border: 5px solid white;
+}

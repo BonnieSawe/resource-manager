@@ -1,0 +1,10 @@
+.post-card{
+    .card{
+        height: 100%;
+        .card-img-top{
+            object-fit: cover;
+            object-position: center;
+            height: 250px;
+        }
+    }
+}

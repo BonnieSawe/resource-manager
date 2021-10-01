@@ -1,0 +1,12 @@
+@import 'colors';
+@import 'fonts';
+
+$primary:$color3;
+
+$theme-colors:(
+    'light':$color2,
+    'dark':$color5,
+);
+
+$input-bg: transparent;
+

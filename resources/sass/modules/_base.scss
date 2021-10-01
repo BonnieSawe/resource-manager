@@ -1,0 +1,15 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    @include font-1;
+    .main-app{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        main{
+            flex: 1 1 auto;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+// Configuration
+@import "config/variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src/index";
+
+//more configuration
+@import "config/mixins";
+
+// Modules
+@import "modules/base";
+@import "modules/typ";
+@import "modules/elements";
+@import "modules/admin";
+
+//Components
+@import "components/header";
+@import "components/footer";
+@import "components/landing";
+@import "components/post-card";
+@import "components/comment";
+
+// Custom
+@import "custom/index";

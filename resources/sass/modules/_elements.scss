@@ -1,0 +1,14 @@
+a {
+	&,
+	&:hover,
+	&:active,
+	&:visited {
+		color: inherit !important;
+		text-decoration: none !important;
+	}
+}
+
+
+ul{
+	list-style-type: none;
+}

@@ -1,0 +1,57 @@
+.font {
+  &-larger {
+    font-size: 24px !important;
+  }
+  &-large {
+    font-size: 19px !important;
+  }
+  &-small {
+    font-size: 14px !important;
+  }
+  &-smaller {
+    font-size: 12px !important;
+  }
+  &-smallest {
+    font-size: 8px !important;
+  }
+
+  &-1{
+    @include font-1;
+  }
+  
+  &-2{
+    @include font-2;
+  }
+}
+
+
+
+.line {
+  &:after {
+    width: 100px;
+    height: 7px;
+    background: currentColor;
+    content: "";
+    display: block;
+    margin: 20px 0;
+  }
+  &.text-center {
+      &:after{
+          margin: 20px auto;
+      }
+  }
+
+  &.text-right {
+    display: flex;
+    flex-direction: column;
+      &:after{
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: auto;
+      }
+  }
+
+  &.section-title {
+    padding-bottom: 20px;
+  }
+}
